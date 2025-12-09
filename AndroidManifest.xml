@@ -1,7 +1,23 @@
-{
-  "name": "myQuizApp",
-  "packageName": "com.gift.oconsquiz",
-  "versionCode": 1,
-  "versionName": "1.0",
-  "sdkVersion": 21
-}
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gift.oconsquiz">
+
+    <application
+        android:allowBackup="true"
+        android:label="OCONS Anatomy Quiz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".ResultActivity"/>
+
+        <activity android:name=".QuizActivity"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
