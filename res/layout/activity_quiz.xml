@@ -1,1 +1,32 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background">
 
+    <TextView
+        android:id="@+id/questionText"
+        android:text="Question will show here"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/optionA"
+        android:text="Answer A"/>
+
+    <Button
+        android:id="@+id/optionB"
+        android:text="Answer B"/>
+
+    <Button
+        android:id="@+id/optionC"
+        android:text="Answer C"/>
+
+    <Button
+        android:id="@+id/optionD"
+        android:text="Answer D"/>
+
+</LinearLayout>
