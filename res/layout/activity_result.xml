@@ -1,1 +1,20 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
 
+    <TextView
+        android:id="@+id/scoreText"
+        android:text="Score: 0/30"
+        android:textSize="24sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:text="Restart Quiz"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
