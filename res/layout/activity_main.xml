@@ -1,1 +1,33 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/background">
 
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:text="Welcome to OCONS Anatomy Quiz"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:text="Start Quiz"
+        android:background="@color/button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/footerText"
+        android:text="Made by Dev Gift\nChat on WhatsApp 2349164624021"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>
